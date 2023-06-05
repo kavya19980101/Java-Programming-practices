@@ -14,7 +14,7 @@ public class Swapping2Numbers {
         b = t;
         System.out.println("After Swapping the values are "+a+" "+b);
 
-        System.out.println("                                              ");
+        System.out.println("                                               ");
         System.out.println("//Logic2 Without using third variable using + and - operator");
         int x=10;
         int y=20;
