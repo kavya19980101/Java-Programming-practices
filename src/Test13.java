@@ -7,8 +7,7 @@ String str=Rev("Hello");
 public static String Rev(String s) {
         int len=s.length();
     if (len== 0)
-        return " ";
-
-    return s.charAt((s.length() - 1)) + Rev(s.substring(0,len-1));
+        return "";
+    return s.charAt((len - 1)) + Rev(s.substring(0,len-1));
 }
 }
